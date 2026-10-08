@@ -1,0 +1,78 @@
+
+=== Vaccination Tracker ===
+1. Register new patient (anonymous ID is created for you)
+2. Record a vaccination for a patient
+3. Update the status of a vaccination record
+4. View one patient
+5. View all patients
+6. Coverage summary
+7. Load demo data
+8. Show available vaccines
+0. Exit
+
+Choose an option (0-8): Choose age group:  1) 0-1  2) 2-5  3) 6-12  4) 13-17  5) 18-59  6) 60+
+Enter number: Registered. Patient ID: P001
+
+=== Vaccination Tracker ===
+1. Register new patient (anonymous ID is created for you)
+2. Record a vaccination for a patient
+3. Update the status of a vaccination record
+4. View one patient
+5. View all patients
+6. Coverage summary
+7. Load demo data
+8. Show available vaccines
+0. Exit
+
+Choose an option (0-8): Available vaccines:
+  BCG      Tuberculosis (1 dose(s))
+  OPV      Polio (4 dose(s))
+  PENTA    Diphtheria, Tetanus, Pertussis, Hepatitis B, Hib (3 dose(s))
+  MEASLES  Measles (2 dose(s))
+  COVID19  COVID-19 (2 dose(s))
+Patient ID (e.g. P001): Vaccine code: Date given (YYYY-MM-DD): Status (Completed/Scheduled/Missed): Saved record P001-V01.
+
+=== Vaccination Tracker ===
+1. Register new patient (anonymous ID is created for you)
+2. Record a vaccination for a patient
+3. Update the status of a vaccination record
+4. View one patient
+5. View all patients
+6. Coverage summary
+7. Load demo data
+8. Show available vaccines
+0. Exit
+
+Choose an option (0-8): Patient ID (e.g. P001): Patient P001 | Age group: 6-12
+  P001-V01: BCG dose 1/1 | 2026-01-10 | Completed
+
+=== Vaccination Tracker ===
+1. Register new patient (anonymous ID is created for you)
+2. Record a vaccination for a patient
+3. Update the status of a vaccination record
+4. View one patient
+5. View all patients
+6. Coverage summary
+7. Load demo data
+8. Show available vaccines
+0. Exit
+
+Choose an option (0-8): Coverage summary (1 patient(s))
+  BCG      1/1 fully vaccinated (100%)
+  OPV      0/1 fully vaccinated (0%)
+  PENTA    0/1 fully vaccinated (0%)
+  MEASLES  0/1 fully vaccinated (0%)
+  COVID19  0/1 fully vaccinated (0%)
+
+=== Vaccination Tracker ===
+1. Register new patient (anonymous ID is created for you)
+2. Record a vaccination for a patient
+3. Update the status of a vaccination record
+4. View one patient
+5. View all patients
+6. Coverage summary
+7. Load demo data
+8. Show available vaccines
+0. Exit
+
+Choose an option (0-8): Goodbye.

@@ -1,0 +1,35 @@
+=== 1. Object creation and interaction ===
+Created patients: P001, P002
+Vaccine from class method: OPV - Polio (4 dose(s))
+Linked record: P001-V01: OPV dose 1/4 | 2026-01-10 | Completed
+
+=== 2. Dictionary: add and display records ===
+Patient P001 | Age group: 0-1
+  P001-V01: OPV dose 1/4 | 2026-01-10 | Completed
+  P001-V02: BCG dose 1/1 | 2026-01-10 | Completed
+--------------------------------------------------
+Patient P002 | Age group: 2-5
+  P002-V01: MEASLES dose 1/2 | 2025-11-05 | Completed
+  P002-V02: MEASLES dose 2/2 | 2099-01-01 | Scheduled
+--------------------------------------------------
+Total patients: 2
+
+=== 3. Instance, class and static methods ===
+After update_record: P002-V02: MEASLES dose 2/2 | 2099-01-01 | Missed
+Patient.total_patients() -> 2
+Patient.is_valid_id('P001') -> True
+Patient.is_valid_id('John Smith') -> False
+Vaccination.parse_date('2026-13-45') -> None
+
+=== 4. Friendly error handling ===
+Problem: Patient 'P009' was not found.
+Problem: Unknown vaccine code. Choose one of: BCG, OPV, PENTA, MEASLES, COVID19
+Problem: BCG only needs 1 dose(s); all are already recorded.
+
+=== 5. Coverage summary ===
+Coverage summary (2 patient(s))
+  BCG      1/2 fully vaccinated (50%)
+  OPV      0/2 fully vaccinated (0%)
+  PENTA    0/2 fully vaccinated (0%)
+  MEASLES  0/2 fully vaccinated (0%)
+  COVID19  0/2 fully vaccinated (0%)
